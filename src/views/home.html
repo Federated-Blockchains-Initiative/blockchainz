@@ -11,7 +11,6 @@
 
 </head>
 <body>
-<center>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
         <header class="mdl-layout__header">
             <div class="mdl-layout__header-row">
@@ -33,13 +32,15 @@
         </div>
         <main class="mdl-layout__content">
             <div class="page-content">
+                <center>
                 <br/>
                 <br/>
                 <h5>Register<h5/>
                     <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                        <input class="mdl-textfield__input" type="text" id="nameInput">
+                        <input class="mdl-textfield__input" type="text" name="name" id="nameInput" value="">
                         <label class="mdl-textfield__label" for="nameInput">Your Name..</label>
                     </div>
+                    <br>
                 <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" onclick="postName()">Submit</button>
                 <br>
                 <p id="submitResponse"></p>
